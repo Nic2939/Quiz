@@ -1,4 +1,4 @@
-
+//Versione 3
 
 public class Domanda {
 	private String testo;

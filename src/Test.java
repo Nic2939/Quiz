@@ -1,7 +1,7 @@
 
 
 //versione 2
-
+//Versione 3
 public class Test {
 	private Domanda[] domande;
 	private int num,pos=0;
