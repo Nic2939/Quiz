@@ -1,4 +1,4 @@
-
+//vers1
 
 public class Test {
 	private Domanda[] domande;
