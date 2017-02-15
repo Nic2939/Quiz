@@ -17,6 +17,20 @@ public class Test {
 	
 	}
 	
+	public void ordina(){
+		do{
+		for(int i=0;i<3;i++){
+			if(domande[i].isRispSing()==false && domande[i+1].isRispSing()==true){
+				Domanda temp=domande[i];
+				domande[i]=domande[i+1];
+				domande[i+1]=temp;
+			}
+			
+		}
+		}while(domande[0].isRispSing()!=true || domande[1].isRispSing()!=true);
+		
+	}
+	
 	public Domanda getDomanda(int n) {
 		return domande[n];
 	

@@ -170,7 +170,7 @@ public class TestFrame extends JFrame implements ActionListener, ItemListener {
 		Test test = new Test(4);
 
 		Domanda[] domande = new Domanda[4];
-		boolean[] sing = { true, true, false, false };
+		boolean[] sing = { false, true, false, true };
 		String[] risp1 = new String[4];
 		String[] risp2 = new String[4];
 		String[] risp3 = new String[4];
@@ -201,6 +201,7 @@ public class TestFrame extends JFrame implements ActionListener, ItemListener {
 			test.addDomanda(domande[i]);
 
 		}
+		test.ordina();
 
 		new TestFrame(test);
 
