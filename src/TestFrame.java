@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 import javax.swing.*;
-
+//prova
 public class TestFrame extends JFrame implements ActionListener,ItemListener{
 	private JCheckBox[] rispCheckBox;
 	private JRadioButton[] rispRadioButt;
